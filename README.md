@@ -9,13 +9,15 @@
 #### Последовательность действий:
 
 1. Клонируйте репозиторий:
-   git clone https://github.com/hudhuud/Github_Api_test.git
+   git clone https://github.com/LaKosta1985/test_ip_github
    cd github-api-test
 2. Установите зависимости
    pip install -r requirements.txt
 3. Создайте файл .env в корне проекта и добавьте ваши данные
-   GITHUB_TOKEN=your_github_token_here
-   GITHUB_USERNAME=your_github_username_here
-   REPO_NAME=repo_name_to_create
+   TOKEN="you_token"
+   USER="user_name"
+   REPO_NAME="you_repository"
 4. Запустите скрипт
    python test_api.py
+
+> Примечание:Ваш GitHub токен(TOKEN="you_token")должен имееть разрешения для создания и удаления репозиториев.
